@@ -24,10 +24,10 @@ dependencies = [
     ('RStan', '2.19.2', '-R-3.6.1'),
 ]
 
-#postinstallcmds = [
-#    'R -e devtools::install_github\(stan-dev/rstantools\)',
-#    'R -e devtools::install_github\(davidaknowles/leafcutter/leafcutter, newstanlayout\)',
-#    ] 
+postinstallcmds = [
+    'R -e devtools::install_github\(stan-dev/rstantools\)',
+    'R -e devtools::install_github\(davidaknowles/leafcutter/leafcutter, newstanlayout\)',
+    ] 
 
 sanity_check_paths = {
     'files': ['README.md'],
