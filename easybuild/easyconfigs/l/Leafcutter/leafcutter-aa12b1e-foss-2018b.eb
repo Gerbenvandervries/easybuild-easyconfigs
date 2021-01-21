@@ -20,8 +20,8 @@ checksums = ['a3f0f6af7703145a06b70626137971356b3a636f6aaed7db0fb8a796a44f21f0']
 
 dependencies = [ 
     ('SAMtools', '1.9'),
-    ('RegTools', '0.5.2', '-foss-2018b-Java-11-LTS',('dummy', '')),
-    ('RStan', '2.19.2', '-foss-2018b-R-3.6.1',('dummy', '')),
+    ('RegTools', '0.5.2', '-Java-11-LTS'),
+    ('RStan', '2.19.2', '-R-3.6.1'),
 ]
 
 #postinstallcmds = [

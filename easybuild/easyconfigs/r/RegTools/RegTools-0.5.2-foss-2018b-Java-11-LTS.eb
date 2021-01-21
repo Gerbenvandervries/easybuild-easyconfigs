@@ -42,4 +42,4 @@ sanity_check_paths = {
 #modextravars = {'MPJ_HOME': '%(installdir)s'}
 #modextrapaths = {'CLASSPATH': 'bio'}
 
-moduleclass = 'lib'
+moduleclass = 'bio'
